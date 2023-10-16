@@ -36,14 +36,76 @@ header{
     width: 40%;
     height: 100%;
 }
-.business-container{
-    height: 1000px; 
+.image-box{
+    width: 60%;
+    height: 100%;
+}
+/* .business-container{
+    height: 1300px; 
     width: 1500px;
     background-color: blue;
-}
+} */
 .column{
     height: 100%;
-    width: 500px;
+    width: 400px;
     background-color: blueviolet;
-    /* margin-left: 50px; */
+    margin-left: 50px;
+}
+.column-row{
+    height: 300px;
+    width: 1300px;
+    background-color: blueviolet;
+    margin-top: 50px;
+}
+.partner-container{
+    height: 700px;
+    width: 1500px;
+    background-color: darkred;
+    margin-top: 150px;
+}
+.general-container{
+    height: 1300px; 
+    width: 1500px;
+    background-color: darkred;
+    display: flex;
+    flex-wrap: wrap;
+}
+.float-cards{
+    height: 450px;
+    width: 350px;
+    background-color: coral;
+    margin-left: 30px;
+}
+.designit{
+    height: 700px;
+    background-color: #F5F5F5;
+    
+}
+.designit-little-square{
+    height: 100%;
+    width: 35%;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+}
+.square-img{
+    height: 350px;
+    width: 350px;
+}
+.designit-center{
+    height: 100%;
+    width: 35%;
+    background-color: dodgerblue;
+}
+.free-trial{
+    height: 400px;
+    background-color: #B4D1E7;
+}
+.faq{
+    height: 600px;
+    width: 1500px;
+}
+footer{
+    height: 750px;
+    background-color: black;
 }
