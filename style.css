@@ -9,7 +9,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 header{
-    height: 100px;  
+    height: 70px;  
 }
 .flex-between{
     display: flex;
@@ -54,7 +54,7 @@ h1{
 .dual-box{
     height: 70%;
     width: 80%;
-    margin: 150px;
+    margin: 150px; 
 }
 .text-box{
     width: 40%;
@@ -67,11 +67,11 @@ h1{
     background-size: cover;
 }
 .column-container{
-    height: 1200px;
+    height: 900px;
     width: 1500px;
 }
 .column{
-    height: 60%;
+    height: 100%;
     width: 400px;
     margin-left: 80px 0 0 50px;
     border: 1px solid black;
@@ -139,3 +139,4 @@ div.column p{
 .fa-check{
     color: #0061FF;
 }
+
