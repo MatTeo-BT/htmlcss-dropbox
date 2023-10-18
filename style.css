@@ -23,9 +23,9 @@ header{
 }
 p{
     margin: 0 20px;
-}
+} 
 .jumbo{
-    height: 950px;
+    /* height: 700px;  */
     background-color: #B4D1E7;
 }
 .blue{
@@ -35,14 +35,13 @@ p{
 }
 .universal-button{
     margin: 60px;
-    padding: 15px;
+    padding: 15px; 
 }
 .header-button{
     padding: 10px;
 
 }
 h1{
-     margin-top: 100px;
      font-weight: bold;
      font-size: 80px;
 }
@@ -63,7 +62,9 @@ h3{
 .dual-box{
     height: 70%;
     width: 80%;
-    margin: 150px; 
+    margin: 150px;
+ 
+  
 }
 .text-box{
     width: 30%;
@@ -73,23 +74,29 @@ h3{
     width: 60%;
     height: 100%;
     padding-left: 30px;
+    
+}
+.dual-box div.image-box{
+    position: relative;
+    top: 100px; 
 }
 div.image-box img{
     width: 100%;
 }
 .column-container{
-    height: 900px;
-    width: 1500px;
+    width: 1500px; 
+    
 }
 .column{
     height: 100%;
-    width: 400px;
+    width: 350px;
     margin-left: 80px 0 0 50px;
     border: 1px solid black;
+    margin-left: 40px;
 }
 .column-row{
     height: 300px;
-    width: 1300px;
+    width: 1100px;
     margin-top: 50px;
     border: 1px solid black;
 }
@@ -124,27 +131,36 @@ div.image-box img{
 .square-img{
     height: 50%;
     width: 50%;
-    margin: auto;
+    display: flex;
 }
 .designit-center{
     height: 100%;
     width: 35%;
     background-color: #F5F5F5;
 }
+.designit-center img{
+    width: 50%;
+    padding: 30px;
+}
 .free-trial{
-    height: 400px;
+    height: 500px;
     background-color: #B4D1E7;
 }
-/* .faq{
+.faq{
      width: 1500px; 
-}   */
+}   
 footer{
-    height: 750px;
+    height: 600px; 
     background-color: black;
     margin-top: 150px;
+    color: white;
 }
 div.column p{
-    padding: 10px;
+    padding: 7px;
+}
+div.column hr:nth-of-type(2){
+    max-width: 70px;
+    margin: 20px 0 20px 30px;
 }
 .fa-check{
     color: #0061FF;
@@ -154,7 +170,9 @@ div.float-cards img{
     width: 80%;
 }
 div.square-img img{
-    width: 60%;
+    width: 50%;
+    margin: auto;
+    filter: invert(1);
 }
 .designit-center p{
     padding: 40px;
@@ -190,9 +208,7 @@ div.square-img img{
     align-items: center;
     height: 200px; 
 }
-div.square-img img{
-    filter: invert(1);
-}
+
 section.faq h4{
     padding: 30px;
     font-size: bold;
@@ -201,20 +217,35 @@ section.faq h4{
     color: #60072A;
 }
 .footer-columns{
-    
-    color: white;
-   
     width: calc(100% / 5);
-    margin-top: 80px;
+    margin: 80px 0 0 150px;
+    
 }
 .footer-columns p{
-    margin-top: 10px;
+    margin: 10px;
     padding: 7px;
 }
 
-.left{
-    width: 50%; 
+.left p,
+h3,
+h4{
+    padding: 20px;
 }
-.left p h3 h4{
-    padding: 30px;
+.fa-chevron-down{
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 200px;
+}
+.fa-arrow-down{
+    margin-top: 150px;
+    font-size: 55px;
+}
+.lang{
+   
+    opacity: .5;
+}
+.lang hr{
+    max-width: 100px;
+    margin: 50px 0 30px 17px;
+
 }
