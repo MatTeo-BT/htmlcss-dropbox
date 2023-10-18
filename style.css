@@ -90,8 +90,8 @@ div.image-box img{
 .column-row{
     height: 300px;
     width: 1300px;
-    background-color: blueviolet;
     margin-top: 50px;
+    border: 1px solid black;
 }
 .partner-container{
     width: 1500px;
@@ -114,16 +114,17 @@ div.image-box img{
     
 }
 .designit-little-square{
-    height: 100%;
-    width: 35%;
+    height: calc(100vw / 3);
+    width: calc(100vw / 3);
     background-color: blue;
     display: flex;
     flex-wrap: wrap;
     color: white;
 }
 .square-img{
-    height: 350px;
+    height: 50%;
     width: 50%;
+    margin: auto;
 }
 .designit-center{
     height: 100%;
@@ -134,12 +135,13 @@ div.image-box img{
     height: 400px;
     background-color: #B4D1E7;
 }
-.faq{
-    width: 1500px;
-}
+/* .faq{
+     width: 1500px; 
+}   */
 footer{
     height: 750px;
     background-color: black;
+    margin-top: 150px;
 }
 div.column p{
     padding: 10px;
@@ -152,10 +154,17 @@ div.float-cards img{
     width: 80%;
 }
 div.square-img img{
-    width: 100%;
+    width: 60%;
+}
+.designit-center p{
+    padding: 40px;
 }
 .green{
     background-color: #A2D49B;
+    
+}
+.green:hover{
+    border: 1rem solid rgba(255, 255, 255, .5);
 }
 .bordeaux{
     background-color: #61082B;
@@ -181,4 +190,33 @@ div.square-img img{
     align-items: center;
     height: 200px; 
 }
-
+div.square-img img{
+    filter: invert(1);
+}
+section.faq h4{
+    padding: 30px;
+    font-size: bold;
+}
+.wine{
+    color: #60072A;
+}
+.footer-columns{
+    
+    color: white;
+   
+    width: calc(100% / 5);
+    margin-top: 80px;
+}
+.footer-columns p{
+    margin-top: 10px;
+    padding: 7px;
+}
+.right{
+    width: 50%;
+}
+.left{
+    width: 50%;
+}
+.left *{
+    padding: 10px;
+}
